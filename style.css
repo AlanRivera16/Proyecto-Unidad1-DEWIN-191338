@@ -1,0 +1,59 @@
+
+body{
+    overflow-x: hidden
+}
+
+.imgCentral{
+    background-image: url(./env/apexLogo.jpg);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%;
+}
+
+.bg-custom{
+    background-color: rgb(163, 67, 70);
+    /* width: 100%; */
+}
+.text-custom{
+    color: rgb(9, 11, 131);
+    font-size: small;
+    font-weight: bold;
+}
+
+.image{
+    width: 70px;
+    height: 70px;
+    margin-left: 250px;
+}
+
+.icono{
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    margin: 1%;
+}
+
+.btn-custom{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width: 150px;
+    height: 50px;
+}
+
+.float{
+    position: absolute; 
+    right: 0; 
+    top: 3%; 
+    height: 80%;
+    width: 35%;
+}
+
